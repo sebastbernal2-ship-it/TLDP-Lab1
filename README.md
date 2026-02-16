@@ -15,26 +15,26 @@ The script:
 
 The full JSON response is saved to 'data/purpleair_sensor.json'.
 
-## How to Run the Code
+# How to Run the Code
 
-# 1. Open the project folder in your code editor (for example, VS Code).
+## 1. Open the project folder in your code editor (for example, VS Code).
 
-# 2. Create and activate a virtual environment (if not already done):
+## 2. Create and activate a virtual environment (if not already done):
 python -m venv venv
 .\venv\Scripts\activate      # For Windows
 
-# 3. Install dependencies:
+## 3. Install dependencies:
 pip install requests
 
-# 4. Add your PurpleAir API key:
+## 4. Add your PurpleAir API key:
 In fetch_data.py, replace YOUR_API_KEY_HERE with your PurpleAir READ API key.
 
-# 5. Place Area Coordinatess:
+## 5. Place Area Coordinatess:
 In fetch_data.py, replace current baseline coordinates (Gainesville) with target location to identify the area's sensors.
 
-# 6. Run the script:
+## 6. Run the script:
 python fetch_data.py
 
-# 7. Check the output:
+## 7. Check the output:
 - The script prints the chosen sensor (near Gainesville) and its latest data in the terminal.
 - A file named purpleair_sensor.json is created inside the data/ folder containing the JSON response from the API.
